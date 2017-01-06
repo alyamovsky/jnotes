@@ -1,0 +1,191 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Dec 28, 2016, 2:25:38 PM
+    Author     : Andrew
+*/
+
+@charset "UTF-8";
+article, aside, main, footer, header, nav, section {
+    display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, main, header, nav, footer, section {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F1F1F1;
+    padding: 0px 10px;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.logo {
+    /*display: inline;*/
+    /*float: left;*/
+}
+
+/*.hContainer {
+    background-color: #F1F1F1;
+}*/
+
+nav {
+    position: absolute;
+    top: 35%;
+    right: 15px;
+    font-family: verdana;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+    /*float: right;*/
+}
+
+nav li.settings {
+    background: url(img/icons/settings.png) no-repeat; /* Параметры фона */
+    padding-left: 20px;
+}
+
+nav li.logout {
+    background: url(img/icons/logout.png) no-repeat; /* Параметры фона */
+    padding-left: 20px;
+}
+
+nav a {
+    color: #000;
+    font-size: 90%;
+}
+
+.contentHeader {
+    margin: 0;
+    padding: 0;
+    color: #999999;
+    font: 12px verdana;
+    width: 100%;
+}
+
+.subjectHeader {
+    float: left;
+    width: 40%;
+    vertical-align: top;
+    margin-bottom: 15px;
+    color: #999999;
+    font: 12px verdana;
+}
+.subject {
+    float: left;
+    width: 40%;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+
+.entry {
+    float: right;
+    width: 60%;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+
+td.issue {
+    width: 5%;
+    vertical-align: top;
+}
+
+td.date {
+    width: 15%;
+    vertical-align: top;
+}
+
+td.date a {
+    text-decoration: underline;
+    color: #555;
+}
+td.date a:hover {
+    text-decoration: underline;
+    color: #999;
+}
+
+td.page {
+    width: 5%;
+    vertical-align: top;
+}
+
+td.comment {
+    width: 35%;
+    vertical-align: top;
+}
+
+.content {
+    width: 100%;
+    vertical-align: top;
+}
+
+.addSubj {
+    display: inline;
+    margin-right: 0px;
+    /*float: right;*/
+    background: url(img/icons/add_subj.png) no-repeat; /* Параметры фона */
+    padding-left: 20px;
+}
+
+.addSubj a {
+    color: #999999;
+    font: 12px verdana;
+}
+
+.addEntry {
+    display: inline;
+    margin-right: 15px;
+    /*float: right;*/
+    background: url(img/icons/add_entry.png) no-repeat; /* Параметры фона */
+    padding-left: 20px;
+}
+
+.addEntry a {
+    color: #999999;
+    font: 12px verdana;
+}
+
+.additional {
+    vertical-align: top;
+}
+
+hr {
+    color: #aaa; /*для IE */
+    background-color: #aaa; /*для Firefox, Opera, Safari*/
+    border: 0px none;
+    height: 1px; /* высота 1px IE, Firefox, Opera, Safari */
+    clear:both;  /*для очистки, если тег идет после float елемента*/
+    margin-bottom: 15px;
+}
+
+.cleaner {
+    clear: both;
+}
+
+main {
+    margin: 10px;
+}
+
+footer {
+    color: #999999;
+    font: 12px verdana;
+    border-top: 1px solid #DDDCDA;
+    padding: 15px;
+    text-align: right;
+}

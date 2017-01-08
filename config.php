@@ -5,14 +5,13 @@
  * and open the template in the editor.
  */
 session_start();
-//date_default_timezone_set('Europe/Moscow');
 $user = [
-    'login' => 'lb1955',
-    'password' => 60158
+    'login' => '',
+    'password' => ''
 ];
 $dsn = 'mysql:host=localhost;dbname=jnotes;charset=utf8';
-$dblogin = 'db_admin';
-$dbpass = 'yn34vHXPtWShemuu';
+$dblogin = '';
+$dbpass = '';
 
 $root_path = __DIR__;
 define('CLASSES_DIR', $root_path . '/classes/');

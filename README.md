@@ -1,2 +1,2 @@
 # jnotes
-Store your bookmarks using a simple app.
+Store all your bookmarks using this simple app.
